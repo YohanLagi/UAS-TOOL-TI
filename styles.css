@@ -1,0 +1,55 @@
+body {
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(10px);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Helvetica', sans-serif; 
+    font-weight: bold;
+    color: black
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+
+.navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h4 {
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+}
+
+
+table {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+th, td {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+a {
+    color: #fff;
+}
+
+.navbar-logo {
+    max-height: 40px; 
+    height: auto;
+}
+
