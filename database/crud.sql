@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Struktur dari tabel `peserta`
 --
 
+CREATE DATABASE crud;
+USE crud;
+
 CREATE TABLE `peserta` (
   `id_peserta` int(11) NOT NULL,
   `nama_peserta` varchar(50) NOT NULL,
